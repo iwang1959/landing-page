@@ -2,8 +2,7 @@
 
 Built using HTML and CSS
 
-[![Watch the video]]([https://www.youtube.com/watch?v=13H2efgqhig)
-
+Check out project video: https://youtu.be/13H2efgqhig?si=GaW1At_SrE3Nl2Fm
 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/31ff04f0-7c37-45ea-bba5-cddbca651f6c">
 
