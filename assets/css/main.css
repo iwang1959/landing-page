@@ -312,6 +312,53 @@ input, select, textarea {
 
 		}
 
+
+		.resume-button {
+			display: inline-block;
+			padding: 14px 28px;
+			font-size: 1.2em;
+			font-weight: bold;
+			color: #fff;
+			background: linear-gradient(135deg, #004080, #002d5a); /* Deep navy gradient */
+			border: none;
+			border-radius: 6px;
+			text-decoration: none;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+			position: relative;
+			overflow: hidden;
+		  }
+		  
+		  .resume-button:hover {
+			background: linear-gradient(135deg, #003366, #001f40);
+			transform: translateY(-2px);
+			box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+		  }
+		  
+		  .resume-button:active {
+			transform: translateY(1px);
+			box-shadow: none;
+		  }
+		  
+		  .resume-button::before {
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 300%;
+			height: 300%;
+			background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 10%, transparent 10%);
+			transition: all 0.6s ease-out;
+			transform: translate(-50%, -50%) scale(0);
+		  }
+		  
+		  .resume-button:hover::before {
+			transform: translate(-50%, -50%) scale(1);
+			opacity: 0;
+		  }
+		  
+
 /* Row */
 
 	.row {
